@@ -1,30 +1,58 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>P2P Markets - Insights into Peer to Peer Loan Investment Strategy</title>
+    <description>Dicussion of the peer to peer lending markets and investment approaches.
+</description>
+    <link>https://mb389.github.io/</link>
+    <atom:link href="https://mb389.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 10 Nov 2015 19:35:22 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2015 19:35:22 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Before You Invest - Identifying Your Return Objectives &amp; Risk Tolerance</title>
+        <description>&lt;h3 id=&quot;returns-and-risk&quot;&gt;Returns and Risk&lt;/h3&gt;
+
+&lt;p&gt;The first step to constructing any investment portfolio is identifying your objectives and how much risk you are willing to take. Below are the loan ROIs on Lending Club (the largest peer to peer lending site currently the focus of this blog going forward) for the 2007 through 2015 vintages, courtesy of nsrplatform.com, a great resource for loan data and back-testing, which we’ll discuss a bit later on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-IvR8hjj7eGw/Vi_oRaZPABI/AAAAAAAACmk/jEGG0mPNHoA/s1600/Screen%2BShot%2B2015-10-27%2Bat%2B5.09.39%2BPM.png&quot; alt=&quot;ROIs&quot; title=&quot;ROIs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nsrplatform.com&quot;&gt;(source)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As you’ll note, the return profile (and concurrently the risk profile) of these loans is a bit different from the stock market, for example. The loans will generally perform consistently year-to-year in a solid economy, returning in the mid- to high- single digit %s. &lt;/p&gt;
+
+&lt;p&gt;However, when economic conditions deteriorate, as they did during the 2007 crisis, defaults will rise leading to potentially considerable losses. As you can see above, the average return in both 2007 and 2008 was negative.&lt;/p&gt;
+
+&lt;p&gt;The main way to influence risk in your loan portfolio is your choice of which credit grades (and thereby interest rates) to invest in. The best way to think about this is the more lower grades (higher interest rates) you add to your portfolio, the greater the volatility of your returns will be. If you choose all A-rated loans with a 7.69% rate below you can expect to get that 5.14% return fairly consistently with very little variance, even in a market crash, as you are lending to the most credit-worthy borrowers. On the other hand, if you have a portfolio of all Fs &amp;amp; Gs, you’re in for a wild ride, as you may see returns as much as 10% higher or lower than that 9.04% historical average listed below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-vZX855YZOws/Vi_plvjkPhI/AAAAAAAACms/ZdqyLFfCQG0/s640/Screen%2BShot%2B2015-10-27%2Bat%2B5.13.35%2BPM.png&quot; alt=&quot;Rates&quot; title=&quot;Rates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lendingclub.com/info/demand-and-credit-profile.action&quot;&gt;(source)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, you should create a portfolio blend of the various graded loans that make sense for your return objective &amp;amp; risk tolerance. As always, the higher return you’re trying to achieve, the more risk you’re taking on.&lt;/p&gt;
+
+&lt;h3 id=&quot;diversification&quot;&gt;Diversification&lt;/h3&gt;
+
+&lt;p&gt;I won’t dwell on this too much as this should be obvious to most experienced investors, but diversification across a large number of loans is an absolute must. A good guideline for a minimum number is 100 unique loans. Luckily, Lending Club’s minimum investment is just $25 per loan, so you only need to deposit $2,500 to achieve that diversification level. Below is a simple chart to illustrate this concept:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://1.bp.blogspot.com/-VmDyoYImeug/Vi_rXVbEhwI/AAAAAAAACm4/ZZGRjH0g81c/s400/Screen%2BShot%2B2015-10-27%2Bat%2B5.23.10%2BPM.png&quot; alt=&quot;Div&quot; title=&quot;Div&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lendingclub.com/info/statistics-performance.action&quot;&gt;(source)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;up-next&quot;&gt;Up Next&lt;/h3&gt;
+
+&lt;p&gt;Overall portfolio allocation!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 27 Oct 2015 09:02:47 -0400</pubDate>
+        <link>https://mb389.github.io/strategy/2015/10/27/return_risk.html</link>
+        <guid isPermaLink="true">https://mb389.github.io/strategy/2015/10/27/return_risk.html</guid>
+        
+        
+        <category>strategy</category>
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
